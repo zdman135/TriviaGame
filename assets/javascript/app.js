@@ -302,7 +302,7 @@ function displayQuestion() {
             $('.question').append(quest);
             $('.answer-choices').append(answers);
         }
-        $('.time-remaining').html('<p class="time">Time Remaining: </p>');
+        $('.time-remaining').html('<p class="time">Time Remaining: 10 seconds</p>');
         theGame = setInterval(displayCountDown, 1000);
 
         $('button').on("click", function () {
