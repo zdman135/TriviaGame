@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    background-image: url("../images/trivia-bg.jpg");
+    background-position: 100%;
+    background-repeat: repeat;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.footer, .title {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    text-align:center;
+}
+
+.answer-choices {
+    padding-top:40px;
+}
+.answer-choices li {
+    margin-top: 20px;
+}
+
+.answer-choices button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#start-game {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.time {
+    font-size: 1.25rem;
+    padding-bottom: 25px;
+
+}
+.answer-choices ul p {
+    font-size: 1.50rem;
+}
+
+.display-score h1 {
+    padding-bottom: 50px;
+    font-weight: bold
+}
+.display-score p {
+    font-size: 1.35rem;
+    margin-bottom: 8px;
+}
+
+.restart {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
